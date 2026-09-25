@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    
     <nav class="navbar">
         <div class="logo"><a href>Edubooks</a></div>
 
@@ -19,11 +20,13 @@
 
         <div class="search">
             <form>
-                <input type ="text" placeholder="Search Book...">
+                <input type ="text" id="search" placeholder="Search Book...">
                 <button type="submit">Go</button>
             </form>
             </div>
     </nav>
+
+    <script src="/script.js"></script>
 
      
     <header>
@@ -79,7 +82,44 @@
 
 
     <section>
-        
+        <h2>Featured Books</h2>
+
+        <div class="book-container">
+            <div class="book-container-books">
+                        <a href="" onclick="alert('Not Stock yet!')">
+                        <img  src="/images/book1.jpg" width="230px" height="330px">
+                        <h2>AI Engineering: Building Applications with Foundation Models</h2>
+                        <p>Artificial Intelligence</p>
+                        </a>
+            </div>
+
+           <div class="book-container-books">
+                        <a href="">
+                        <img  src="/images/book2.jpg" width="230px" height="330px">
+                        <h2>Fundamentals of Data Engineering: Plan and Build Robust Data Systems</h2>
+                        <p>Data Engineering</p>
+                        </a>
+            </div>
+
+
+            <div class="book-container-books">
+                        <a href="">
+                        <img  src="/images/book3.jpg" width="230px" height="300px">
+                        <h2 class="bname">Hands-On Large Language Models: Language Understanding and Generation</h2>
+                        <p>Artificial Intelligence</p>
+                        </a>
+            </div>
+
+
+            <div class="book-container-books">
+                        <a href="">
+                        <img  src="/images/book4.jpg" width="230px" height="330px">
+                        <h2>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</h2>
+                        <p>Machine Learning</p>
+                        </a>
+            </div>
+
+        </div>
     </section>
 
 
